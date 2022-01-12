@@ -3,6 +3,7 @@
 ### Useful Links
 https://elkowar.github.io/eww/  
 https://www.makeuseof.com/how-to-install-and-remove-packages-arch-linux/  
+https://thatnixguy.github.io/posts/ricing/
 
 ### i3
 
