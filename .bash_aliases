@@ -1,5 +1,5 @@
 #
-# ~/.bashrc
+# ~/.bash_aliases
 #
 
 # Example file for alias etc
