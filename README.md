@@ -4,6 +4,7 @@
 https://elkowar.github.io/eww/  
 https://www.makeuseof.com/how-to-install-and-remove-packages-arch-linux/  
 https://thatnixguy.github.io/posts/ricing/
+https://www.linuxfordevices.com/tutorials/linux/picom
 
 ### i3
 
@@ -26,4 +27,5 @@ Open .bashrc and paste this, then copy my .bash_aliases file to `~/`remember to 
 if [ -f ~/.bash_aliases ]; then
         ~/.bash_aliases
 fi
-
+```
+#### Picom
