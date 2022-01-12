@@ -13,3 +13,10 @@ https://github.com/Ifnir/alacritty-theme
 
 ### Polybar
 https://sudacode.com/blog/Polybar-Configuration 
+
+### Fonts
+#### Install font
+`sudo pacman -S ttf-dejavu`
+#### Clear Cache
+`fc-cache`
+
