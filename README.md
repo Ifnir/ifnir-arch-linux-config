@@ -6,6 +6,9 @@ https://www.makeuseof.com/how-to-install-and-remove-packages-arch-linux/
 https://thatnixguy.github.io/posts/ricing/
 https://www.linuxfordevices.com/tutorials/linux/picom
 
+### Security
+https://wiki.archlinux.org/title/security
+
 ### i3
 
 https://i3wm.org/docs/userguide.html#_default_keybindings  
