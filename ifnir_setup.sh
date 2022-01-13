@@ -1,6 +1,6 @@
 #!/bin/bash
 
-appsname=(rofi i3 picom polybar);
+appsname=(rofi i3 picom polybar alacritty);
 
 for name in ${appsname[@]}; do    
     if [ ! -d ~/.config/$name ]; then
