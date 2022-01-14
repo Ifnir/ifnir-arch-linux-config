@@ -34,4 +34,6 @@ if [ -f ~/.bash_aliases ]; then
         ~/.bash_aliases
 fi
 ```
+
+Also ```sudo chmod +x /.bash_aliases```
 #### Picom
