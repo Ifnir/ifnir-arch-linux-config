@@ -35,6 +35,7 @@ bindsym $mod+d exec rofi -show drun -show-icons
 #exec_always --no-startup-id ~/.config/polybar/launch.sh &
 
 # Picom
+# --experimental-backends fucks up VMware
 set $picom $HOME/.config/picom
 exec_always --no-startup-id pkill picom; picom --backend glx --no-use-damage --config $picom/picom.conf &
 
