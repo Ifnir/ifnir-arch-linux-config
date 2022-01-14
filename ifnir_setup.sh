@@ -22,7 +22,7 @@ fi;
 
 if [ ! -f ~/.config/i3/config ];
 then
-    ln -s $pw/i3/config.conf ~/.config/i3/config
+    ln -s $pw/i3/config ~/.config/i3/config
 fi;
 
 if [ ! -f ~/.config/alacritty/alacritty.yml ];
@@ -32,7 +32,7 @@ fi;
 
 if [ ! -f ~/.config/polybar/config ];
 then
-    ln -s $pw/polybar/config.conf ~/.config/polybar/config
+    ln -s $pw/polybar/config ~/.config/polybar/config
     
 fi;
 
