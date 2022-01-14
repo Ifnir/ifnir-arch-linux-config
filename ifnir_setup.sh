@@ -40,3 +40,8 @@ if [ ! -f ~/.config/polybar/launch.sh ];
 then
     ln -s $pw/polybar/launch.sh ~/.config/polybar/launch.sh
 fi;
+
+if [ ! -f ~/.config/picom/picom.conf ];
+then
+    ln -s $pw/picom/picom.conf ~/.config/picom/picom.conf
+fi;
