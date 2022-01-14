@@ -36,7 +36,7 @@ bindsym $mod+d exec rofi -show drun -show-icons
 
 # Picom
 set $picom $HOME/.config/picom
-exec_always --no-startup-id pkill picom; picom --experimental-backends --backend glx --no-use-damage --config $picom/picom.conf &
+exec_always --no-startup-id pkill picom; picom --backend glx --no-use-damage --config $picom/picom.conf &
 
 # Gaps
 gaps inner 5
