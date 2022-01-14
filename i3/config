@@ -42,7 +42,11 @@ gaps outer 5
 client.focused #282a36 #282a36 #ffffff #282a36 #ffffff
 client.unfocused_inactive #282a36 #282a36 #282a36 #282a36 #282a36
 client.unfocused #282a36 #282a36 #000000 #282a36 #282a36
+client.urgent    #282a36 #282a36 #ff5555 #282a36 #ff5555
 client.background #282a36
+
+# Border
+for_window [class=".*"] border pixel 0
 
 # use these keys for focus, movement, and resize directions when reaching for
 # the arrows is not convenient
