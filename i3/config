@@ -31,8 +31,12 @@ set $mod Mod4
 set $rofi ~/.config/rofi
 bindsym $mod+d exec rofi -show drun -show-icons
 
-#Polybar
+# Polybar
 #exec_always --no-startup-id ~/.config/polybar/launch.sh &
+
+# Picom
+set $picom $HOME/.config/picom
+exec_always --no-startup-id pkill picom; picom --experimental-backends --backend glx --no-use-damage --config $picom/picom.conf &
 
 # Gaps
 gaps inner 5
