@@ -9,6 +9,10 @@ for name in ${appsname[@]}; do
     if [ ! -d ~/.config/$name ]; then
 	mkdir -p ~/.config/$name;
     fi
+    if ! hash $name &> /dev/null;
+    then
+       echo "$name not installed"
+    fi
 done;
 
 if [ ! -f ~/.config/rofi/config.rasi ];
