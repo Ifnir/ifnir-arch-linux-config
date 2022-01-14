@@ -6,6 +6,9 @@ https://www.makeuseof.com/how-to-install-and-remove-packages-arch-linux/
 https://thatnixguy.github.io/posts/ricing/
 https://www.linuxfordevices.com/tutorials/linux/picom
 
+### Configuration of Wayland
+https://www.reddit.com/r/archlinux/comments/rz6294/arch_linux_laptop_optimization_guide_for/
+
 ### Security
 https://wiki.archlinux.org/title/security
 
