@@ -36,10 +36,10 @@ bindsym $mod+d exec rofi -show drun -show-icons
 
 # Picom
 # --experimental-backends fucks up VMware
-set $picom $HOME/.config/picom
-exec_always --no-startup-id pkill picom; picom --backend glx --no-use-damage --config $picom/picom.conf &
+set $picom ~/.config/picom
+exec_always --no-startup-id pkill picom; picom -f --backend glx --no-use-damage --config $picom/picom.conf &
 
-#
+# Nitrogen
 exec --no-startup-id nitrogen --restore
 
 # Gaps
