@@ -32,7 +32,7 @@ set $rofi ~/.config/rofi
 bindsym $mod+d exec rofi -show drun -show-icons
 
 # Polybar
-#exec_always --no-startup-id ~/.config/polybar/launch.sh &
+exec_always --no-startup-id ~/.config/polybar/launch.sh &
 
 # Picom
 # --experimental-backends fucks up VMware
