@@ -45,7 +45,7 @@ fi;
 
 if [ ! -f ~/.config/polybar/config ];
 then
-    ln -s $pw/polybar/config ~/.config/polybar/config
+    ln -s $pw/polybar/config.ini ~/.config/polybar/config.ini
     
 fi;
 
