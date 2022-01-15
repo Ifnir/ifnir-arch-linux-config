@@ -3,7 +3,18 @@
 # how to put linux cmd into variable
 pw=$(pwd)
 
-appsname=(rofi i3 picom polybar alacritty)
+appsname=(rofi i3 picom polybar alacritty ni)
+
+#sudo pacman -S ttf-dejavu 
+#fc-cache
+
+#sudo pacman -S i3-gaps
+
+#sudo pacman -S --needed base-devel
+# git clone https://aur.archlinux.org/yay-git.git
+# cd yay
+# makepkg -si
+# yay -S polybar
 
 for name in ${appsname[@]}; do    
     if [ ! -d ~/.config/$name ]; then
