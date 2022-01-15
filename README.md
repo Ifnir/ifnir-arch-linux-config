@@ -28,6 +28,9 @@ https://sudacode.com/blog/Polybar-Configuration
 #### Clear Cache
 `fc-cache`
 
+## wallpaper
+https://w.wallhaven.cc/full/57/wallhaven-5763w1.png
+
 Open .bashrc and paste this, then copy my .bash_aliases file to `~/`remember to source ~/.bash_aliases too 
 ```
 if [ -f ~/.bash_aliases ]; then
