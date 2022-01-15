@@ -11,6 +11,7 @@ appsname=(rofi i3 picom polybar alacritty ni)
 #sudo pacman -S i3-gaps
 
 #sudo pacman -S --needed base-devel
+#sudo pacman -Syy
 # git clone https://aur.archlinux.org/yay-git.git
 # cd yay
 # makepkg -si
