@@ -13,6 +13,7 @@ https://www.linuxfordevices.com/tutorials/linux/picom
 https://www.reddit.com/r/archlinux/comments/rz6294/arch_linux_laptop_optimization_guide_for/
 
 #### sudo pacman -S
+https://www.fosskers.ca/en/blog/wayland
 xorg-xwayland xorg-xlsclients qt5-wayland glfw-wayland
 
 ### Security
