@@ -12,6 +12,9 @@ https://www.linuxfordevices.com/tutorials/linux/picom
 ### Configuration of Wayland
 https://www.reddit.com/r/archlinux/comments/rz6294/arch_linux_laptop_optimization_guide_for/
 
+#### sudo pacman -S
+xorg-xwayland xorg-xlsclients qt5-wayland glfw-wayland
+
 ### Security
 https://wiki.archlinux.org/title/security
 
