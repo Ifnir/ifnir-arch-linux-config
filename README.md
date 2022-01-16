@@ -1,5 +1,8 @@
 # ifnir-arch-linux-config
 
+### How to partition arch linux
+https://www.howtogeek.com/766168/how-to-install-arch-linux-on-a-pc/
+
 ### Useful Links
 https://elkowar.github.io/eww/  
 https://www.makeuseof.com/how-to-install-and-remove-packages-arch-linux/  
