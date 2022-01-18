@@ -7,6 +7,6 @@ killall -q polybar
 while grep -u $UID -x polybar >/dev/null; do sleep 1; done
 
 # Launch
-polybar main -c config.ini &
+polybar main -c /home/aka/.config/polybar/config.ini
 
 echo "Bars launched..."
