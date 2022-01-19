@@ -16,6 +16,7 @@ echo 'bluetoothctl'
 echo 'connect XX:XX:XX:XX:XX'
 
 echo '### Sound Control'
+echo 'amixer -D pulse set Master 5%+'
 echo 'amixer -D pulse sset Master 30%'
 echo 'alsamixer'
 
