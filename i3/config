@@ -46,8 +46,8 @@ exec --no-startup-id nitrogen --restore
 gaps inner 5
 gaps outer 5
 
-# color
-client.focused #282a36 #152238 #ffffff #282a36 #91BAD6
+# color        border  backgr  text    indicator  child_border
+client.focused #282a36 #152238 #91BAD6 #282a36 #91BAD6
 client.unfocused_inactive #282a36 #282a36 #282a36 #282a36 #282a36
 client.unfocused #282a36 #282a36 #ffffff #282a36 #282a36
 client.urgent    #282a36 #282a36 #ff5555 #282a36 #ff5555
