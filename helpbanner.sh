@@ -13,6 +13,7 @@ echo 'hcitool -i hci0 scan'
 
 echo '### bluetooth command line'
 echo 'bluetoothctl'
+echo 'trust XX:XX:XX:XX:XX'
 echo 'connect XX:XX:XX:XX:XX'
 
 echo '### Sound Control'
