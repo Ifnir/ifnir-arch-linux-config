@@ -57,9 +57,9 @@ gaps inner 5
 gaps outer 5
 
 # color        border  backgr  text    indicator  child_border
-client.focused #282a36 #152238 #91BAD6 #282a36 #91BAD6
+client.focused #282a36 #152238 #ffb51a #282a36 #ffb51a
 client.unfocused_inactive #282a36 #282a36 #282a36 #282a36 #282a36
-client.unfocused #282a36 #282a36 #ffffff #282a36 #282a36
+client.unfocused #282a36 #282a36 #91BAD6 #282a36 #282a36
 client.urgent    #282a36 #282a36 #ff5555 #282a36 #ff5555
 client.background #282a36
 

@@ -49,3 +49,7 @@ fi
 
 Also ```sudo chmod +x /.bash_aliases```
 #### Picom
+
+
+### change lock screen on ubuntu
+sudo lightdm-gtk-greeter-settings
