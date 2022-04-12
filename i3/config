@@ -39,8 +39,18 @@ exec_always --no-startup-id bash ~/.config/polybar/launch.sh
 exec_always --no-startup-id bash ~/.config/picom/launch.sh 
 #exec_always --no-startup-id picom -f --backend glx --config ~/.config/picom/picom.conf &
 
+#Monitor script
+bindsym $mod+n exec ~/bashscript/automonitor.sh
+
 # Nitrogen
 exec --no-startup-id nitrogen --restore
+
+# Sound
+bindsym $mod+p exec amixer -D pulse sset Master 5%+
+bindsym $mod+o exec amixer -D pulse sset Master 5%-
+# hibernate and lockdown
+#bindsym $mod+h exec alacritty 'systemctl hibernate'
+bindsym $mod+l exec dm-tool lock
 
 # Gaps
 gaps inner 5
